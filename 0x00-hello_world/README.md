@@ -29,3 +29,9 @@ multilingual puzzle`, followed by a new line.
 
   * Use the function `puts`
   * You are not allowed to use `printf`
+
+5. Write a C program that prints exactly `with proper grammar, but the outcome is
+a piece of art,`, followed by a new line.
+
+  * Use the function `printf`
+  * You are not allowed to use the function `puts`
