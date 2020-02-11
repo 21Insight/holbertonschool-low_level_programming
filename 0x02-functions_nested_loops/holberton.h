@@ -47,4 +47,12 @@ int _isalpha(int c);
 
 int print_sign(int n);
 
+/**
+ * _abs - computer absolute value of integer
+ * @int: integer
+ * Return: absolute value
+ */
+
+int _abs(int);
+
 #endif
