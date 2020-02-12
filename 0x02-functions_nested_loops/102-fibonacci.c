@@ -1,27 +1,28 @@
 #include <stdio.h>
 
 /**
- * main - print first 50 Fibonacci numbers
- * Return: 0
+ * main - print fibonacci numbers
+ *
+ * Return: always 0
  */
 
 int main(void)
 {
-	int counter;
-	int countto = 50;
-	long a = 1;
-	long b = 2;
+	long int a, b, c, d;
 
-	for (counter = 1; counter <= (countto / 2); counter++)
+	a = 1;
+	b = 2;
+	c = a + b;
+
+	printf("%ld, ", a);
+	printf("%ld, ", b);
+	for (d = 3; d < 50; d++)
 	{
-		printf("%li %li ", a, b);
-		a += b;
-		b += a;
+		printf("%ld, ", c);
+		a = b;
+		b = c;
+		c = a + b;
 	}
-	if (countto % 2 == 1)
-		printf("%li", a);
-
-	printf("\n");
-
+	printf("%ld\n", c);
 	return (0);
 }
