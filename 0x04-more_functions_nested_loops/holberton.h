@@ -51,4 +51,11 @@ void print_most_numbers(void);
 
 void more_numbers(void);
 
+/**
+ * print_line(int n) - print the character "_" n times to draw a line
+ * @n: number of characters to draw
+ */
+
+void print_line(int n);
+
 #endif
