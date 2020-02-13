@@ -58,4 +58,11 @@ void more_numbers(void);
 
 void print_line(int n);
 
+/**
+ * print_diagonal - print character "\" n times
+ * @n: number of characters to draw
+ */
+
+void print_diagonal(int n);
+
 #endif
