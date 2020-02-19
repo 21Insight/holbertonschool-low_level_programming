@@ -74,4 +74,11 @@ void puts_half(char *str);
 
 char *_strcpy(char *dest, char *src);
 
+/**
+ * 
+ * 
+ */
+
+int _atoi(char *s);
+
 #endif
