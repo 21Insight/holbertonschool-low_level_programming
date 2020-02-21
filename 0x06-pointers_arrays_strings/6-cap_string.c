@@ -19,7 +19,7 @@ char *cap_string(char *STR)
 		{
 			if (*(STR + cnt) == separators[i])
 			{
-				if ((*(STR + (cnt + 1)) >= 97) && (*(s + (cnt + 1)) <= 122))
+				if ((*(STR + (cnt + 1)) >= 97) && (*(STR + (cnt + 1)) <= 122))
 					*(STR + (cnt + 1)) = *(STR + (cnt + 1)) - 32;
 				break;
 			}
