@@ -22,5 +22,3 @@ All of the following files are programs written in C:
 | `8-rot13.c` | Encodes a string using rot13 |
 | `100-print_number.c` | Prints an integer |
 | `101-magic.c` | Changes the value of an index of an integer array |
-| `102-infinite_add.c` | Adds two numbers |
-| `103-print_buffer.c` | Prints a buffer |
